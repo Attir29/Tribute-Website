@@ -1,0 +1,85 @@
+/* General Reset */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #1e1e1e, #3b0086); /* Gradient hitam ke ungu */
+    color: #f9f9f9;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Main container styling */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #555;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.8); /* Transparansi untuk kesan modern */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Title styling */
+  #title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffd700; /* Warna emas */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Bayangan elegan */
+  }
+  
+  /* Image section styling */
+  #img-div {
+    margin: 20px 0;
+  }
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 4px solid #ffd700; /* Warna emas */
+  }
+  
+  #img-caption {
+    font-size: 1em;
+    color: #ddd;
+    margin-top: 10px;
+  }
+  
+  /* Tribute info styling */
+  #tribute-info {
+    margin: 20px 0;
+    font-size: 1.1em;
+    color: #ccc;
+  }
+  
+  /* Link styling */
+  #tribute-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffd700; /* Warna emas */
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  #tribute-link:hover {
+    background-color: #d4af37; /* Warna emas lebih gelap */
+  }
+  
+  /* Footer styling */
+  footer {
+    margin-top: 40px;
+    color: #ccc;
+    font-size: 0.9em;
+  }
